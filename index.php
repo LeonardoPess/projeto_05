@@ -37,6 +37,7 @@
 	<div class="clear"></div>
 	</div><!--container-->
 </header>
+
 <?php
 	if(isset($_GET['url'])){
 		if(file_exists($_GET['url']).'.html'){
@@ -66,7 +67,9 @@
 </footer>
 <script src="js/jquery.js"></script>
 <script src="js/menu-mobile.js"></script>
+<script src="js/pesquisa.js"></script>
 <script src="js/menu-scroll.js"></script>
 <script src="js/depoimentos.js"></script>
+<script src="js/galeria.js"></script>
 </body>
 </html>
